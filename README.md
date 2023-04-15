@@ -27,9 +27,7 @@
 
 ## Description
 
-This Landing page project is built with the help of HTML, Sass(Scss), CSS and Flexbox. The modern and clear design represnts a hotel booking website. The values of the colors, 
-colors, margins and paddings are stored in custom CSS variables. For the HTML structure is used Element Block Modifier (EBM). For Sass installation here is used NPM package called Node SASS. The project is 
-responsive and supports all browsers. It has a finished Building workflow and it is ready for production.
+This stylish Landing page project is built with the help of HTML, Sass(Scss), CSS and Flexbox. The modern and clear design represnts a hotel booking website. The values of the colors, margins and paddings are stored in custom CSS variables. For the HTML structure is used Element Block Modifier (EBM). The project is fully responsive and can be used of all types of devices and browsers. For Sass installation here is used NPM package called Node SASS. The Landing page has a finished Building workflow and it is ready for production.
 
 ## Preparation and installation of Node Sass
 
