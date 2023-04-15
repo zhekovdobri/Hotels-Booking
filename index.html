@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Book Hotels</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="trillo logo" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div>
+
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="User Photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Dobri</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-beach_access"></use>
+                                </svg>
+                                <span>Vacations</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-local_offer"></use>
+                                </svg>
+                                <span>Deals</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-groups"></use>
+                                </svg>
+                                <span>Groups</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-gift"></use>
+                                </svg>
+                                <span>Cards</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="legal">
+                        &copy; 2023 by Dobri Zhekov. All rights reserved
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-4.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-5.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-6.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Hotel continental
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>                               
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Oslo, Norway</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+
+                    <div class="evaluation">
+                        <div class="evaluation__review">
+                            <p class="evaluation__paragraph">Luxury hotel with 2 restaurants, connected to a shopping center, near Aker Brygge.</p>
+                            <div class="evaluation__classification">
+                                9.6/10 Exceptional
+                            </div>
+                            <button class="btn-inline">All reviews (998) <span>&rarr;</span></button>
+                            <div class="evaluation__classification">Property highlights</div>
+
+                            <ul class="list">
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-local_cafe"></use>
+                                    </svg>
+                                    <span>Free breakfast</span>
+                                </li>
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-snowflake-o"></use>
+                                    </svg>
+                                    <span>Air conditioning</span>
+                                </li>
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-directions_car"></use>
+                                    </svg>
+                                    <span>Parking available</span>
+                                </li>
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-signal"></use>
+                                    </svg>
+                                    <span>Free WiFi</span>
+                                </li>
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-restaurant"></use>
+                                    </svg>
+                                    <span>Free breakfast</span>
+                                </li>
+                                <li class="list__item">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="img/sprite.svg#icon-meeting_room"></use>
+                                    </svg>
+                                    <span>Rooms available</span>
+                                </li>
+                            </ul>                        
+                        </div>
+
+                        <div class="evaluation__map">
+                            <img src="./img/mpa.jpg" alt="Google map" class="evaluation__photo">
+                            <p>Stortingsgaten 24-26, Oslo, 0161</p>
+                            <button class="btn-inline">View in map <span>&rarr;</span></button>
+                            <div class="evaluation__price">
+                                <p class="price evaluation__paragraph">Price available on 4/16/2023</p>
+                                <p class="price evaluation__classification">$315</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                A Family runned property, centrally located in the middle of Oslo nearby Nationaltheatre station where the Airport Express Train stops. Hotel Continental can proudly present 151 beautiful suites and hotel rooms perfect for corporate and leisure travellers.
+                            </p>
+                            <p class="paragraph">
+                                The unique Meeting and Event facilities serves customized menus and five star service. And the legendary and very popular restaurant Theatercafeen is still the place to see and to be seen- don`t miss the atmosphere!
+                            </p>
+                            <h2 class="cta">Main amenities</h2>
+                            <ul class="list">
+                                <li class="list__item">2 restaurants and 4 bars</li>
+                                <li class="list__item">24-hour fitness center</li>
+                                <li class="list__item">24-hour front desk</li>
+                                <li class="list__item">24-hour room service</li>
+                                <li class="list__item">Babysitting</li>
+                                <li class="list__item">Business center</li>
+                                <li class="list__item">Coffee shop/cafe</li>
+                                <li class="list__item">Daily housekeeping</li>
+                                <li class="list__item">Front-desk safe</li>
+                                <li class="list__item">Laundry service</li>
+                                <li class="list__item">Limo/town car service</li>
+                                <li class="list__item">Valet parking</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Bill and other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                    <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                    <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                    <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    The hotel was in a perfect location, not too far from the train station if you are travelling with luggage. The staff were fabulous, very friendly, helpful and full of useful information.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">E. Musk</p>
+                                        <p class="review__user-date">Feb 23rd, 2017</p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    The room and the bathroom were spacious and very clean. We ate at the hotel one night and that was very good food. The service from the French waiter was superb. Breakfasts were good too.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">A. Heard</p>
+                                        <p class="review__user-date">Sep 13th, 2017</p>
+                                    </div>
+                                    <div class="review__rating">9.3</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">Show all <span>&rarr;</span></button>
+                        </div>
+                    </div>
+                    <h2 class="cta">
+                        Hotel overview
+                    </h2>
+                    <div class="hotel-gallery">
+                        <figure class="hotel-gallery__item">
+                            <img src="img/hotel-7.jpg" alt="Photo of hotel 1" class="hotel-gallery__photo">
+                        </figure>
+                        <figure class="hotel-gallery__item">
+                            <img src="img/hotel-8.jpg" alt="Photo of hotel 1" class="hotel-gallery__photo">
+                        </figure>
+                        <figure class="hotel-gallery__item">
+                            <img src="img/hotel-9.jpg" alt="Photo of hotel 1" class="hotel-gallery__photo">
+                        </figure>
+                        <figure class="hotel-gallery__item">
+                            <img src="img/hotel-10.jpg" alt="Photo of hotel 1" class="hotel-gallery__photo">
+                        </figure>
+                    </div>          
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Checking room availability
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">2 rooms left</span>
+                        </button>
+                    </div>
+
+                </main>
+            </div>
+
+        </div> 
+    </body>
+</html>
